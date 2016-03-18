@@ -1,1 +1,1 @@
-def :
+print('this is xueqian.py')
