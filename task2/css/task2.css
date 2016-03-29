@@ -1,0 +1,49 @@
+body
+{
+	background-color: #cccccc;
+	font-family: "微软雅黑";
+}
+article{
+	margin: 10px;
+	padding: 10px;
+}
+article > div{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+}
+article > div > figure{
+	border: 3px solid #cccccc;
+	width: 40%;
+}
+article > div > figure > figcaption{
+	text-align: center;
+	padding: 5px;
+}
+article > div > figure > img{
+	text-align: center;
+	margin: 0 auto;
+}
+article > div > table {
+	width: 100%;
+}
+article > div > table > thead{
+	background-color: black;
+	color: white;
+}
+article > div > table > tfoot{
+	background-color: #cccccc;
+	color: white;
+}
+aside{
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+}
+.submit{
+	width: 100%;
+	background-color: blue;
+	color: white;
+}
