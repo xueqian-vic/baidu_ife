@@ -1,0 +1,47 @@
+#father{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #eeeeee;
+    margin: 20px;
+    overflow: auto;
+}
+
+#child_left{
+    background: white;
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+#child_middle{
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 142px 0 222px;
+}
+#child_right{
+    background: white;
+    border: 1px solid black;
+    float: right;
+    width: 120px;
+}
+img{
+    float: left;
+    clear: left;
+    margin: 20px;
+}
+#img_team{
+    float: left;
+}
+p{
+      margin-right: 10px;
+      font-size: 16px;
+      font-family: 微软雅黑;
+}
+label{
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
